@@ -1,0 +1,84 @@
+.backgroundImg {
+   position: absolute;
+   overflow: hidden;
+   width: 100%;
+   height: 92%;
+   z-index: 0;
+   opacity: 0.5;
+}
+
+.backgroundImg img {
+   width: 100%;
+}
+
+.viewContainer {
+   position: absolute;
+   display: flex;
+   justify-content: space-evenly;
+   align-items: center;
+   width: 100%;
+   height: 90%;
+}
+
+.detailsContainer {
+   color: white;
+   width: 60%;
+   height: 450px;
+   background-color: rgba(26, 93, 93, 0.379);
+}
+
+.detailTitle h1 {
+   text-align: center;
+   font-size: 3rem;
+}
+
+.detailDescription p {
+   font-size: 1.1rem;
+}
+.poster {
+   width: 20%;
+}
+
+.poster img {
+   border-radius: 11px;
+   width: 100%;
+}
+
+.reviewContainer {
+   position: relative;
+   margin-top: 100vh;
+   width: 100%;
+   height: 50vh;
+}
+
+.addReviewContainer {
+   width: 100%;
+   display: flex;
+   justify-content: center;
+   gap: 10px;
+}
+
+.addReviewContainer input {
+   width: 60%;
+   border-radius: 11px;
+}
+
+.viewReviewContainer {
+   width: 100%;
+   padding-inline: 100px;
+   margin-top: 50px;
+}
+
+.overlay {
+   position: absolute;
+   top: 0;
+   left: 0;
+   right: 0;
+   bottom: 0;
+   background-color: rgba(240, 248, 255, 0.5);
+   display: none;
+}
+
+.overlay h1 {
+   height: 100%;
+}
